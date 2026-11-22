@@ -1,4 +1,4 @@
-vim.opt.number = true
+require("config.options")
 
 
 
