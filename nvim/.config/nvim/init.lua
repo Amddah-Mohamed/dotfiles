@@ -1,0 +1,8 @@
+vim.opt.number = true
+
+
+
+
+
+
+
