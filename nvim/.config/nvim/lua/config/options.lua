@@ -9,4 +9,9 @@ vim.opt.shiftwidth = 4 -- determines how many spaces to use for indentations
 vim.opt.autoindent = true -- sets autoindentation 
 vim.opt.clipboard = "unnamedplus" -- removes the need for "+ suffix to copy outside of nvim
 
+vim.cmd.colorscheme("retrobox") 
+vim.opt.autocomplete = true 
+vim.opt.complete:append("o")
+vim.opt.completeopt:append("noinsert")
+
 
